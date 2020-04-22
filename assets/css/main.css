@@ -2106,7 +2106,7 @@ button,
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  background-image: url("../../images/logo.png");
+  background-image: url("../../images/banner.jpg");
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2178,14 +2178,20 @@ button,
       #banner > .inner .content > :last-child {
         margin-right: 0; }
       #banner > .inner .content p {
-        font-size: 0.7em;
+        width: 100%;
+        font-size: 1.5em;
         font-weight: 600;
+        text-align: center;
         letter-spacing: 0.25em;
         text-transform: uppercase; }
   #banner.major {
     height: 75vh;
     min-height: 30em;
     max-height: 50em; }
+    #banner.major h1 {
+      text-align: center;
+      font-weight: 600;
+      text-transform: uppercase; }
     #banner.major.alt {
       opacity: 0.75; }
   #banner.style1:after {
