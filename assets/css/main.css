@@ -998,7 +998,7 @@ header.major {
     font-weight: 600;
     letter-spacing: 0.25em;
     margin-bottom: 0;
-    text-transform: uppercase; }
+    text-transform: none; }
   body.is-ie header.major > :first-child:after {
     max-width: 9em; }
   body.is-ie header.major > h1:after {
